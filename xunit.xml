@@ -1,0 +1,4 @@
+<testsuite name="Mocha Tests" tests="2" failures="0" errors="0" skipped="0" timestamp="Fri, 02 Apr 2021 22:51:41 GMT" time="26.554">
+<testcase classname="Listagem" name="Listagem sem registros" time="22.443"/>
+<testcase classname="Listagem" name="Listagem com apenas um registro" time="3.753"/>
+</testsuite>

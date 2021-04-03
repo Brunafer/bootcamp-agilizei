@@ -1,0 +1,154 @@
+[
+  {
+    "description": "Como usuario, desejo realizar um cadastro\nPara que possa acessar o sistema",
+    "keyword": "Funcionalidade",
+    "name": "Cadastro",
+    "line": 2,
+    "id": "cadastro",
+    "tags": [],
+    "uri": "cadastro.feature",
+    "elements": [
+      {
+        "id": "cadastro;cadastro-de-usuário-no-site",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Cadastro de usuário no site",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 8,
+            "name": "que acesso o site",
+            "result": {
+              "status": "passed",
+              "duration": 19217000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 9,
+            "name": "informar meus dados",
+            "result": {
+              "status": "passed",
+              "duration": 6595000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 10,
+            "name": "salvar",
+            "result": {
+              "status": "passed",
+              "duration": 222000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 11,
+            "name": "devo ser cadastrado com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 10393000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "Como usuário, desejo acessar a listagem\nPara que possa visualizar meus dados de cadastro",
+    "keyword": "Funcionalidade",
+    "name": "Listagem",
+    "line": 2,
+    "id": "listagem",
+    "tags": [],
+    "uri": "listagem.feature",
+    "elements": [
+      {
+        "id": "listagem;listagem-sem-registros",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Listagem sem registros",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 8,
+            "name": "que o site não possui registros",
+            "result": {
+              "status": "passed",
+              "duration": 36799000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 9,
+            "name": "acessar a listagem",
+            "result": {
+              "status": "passed",
+              "duration": 2054000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 10,
+            "name": "devo visualizar a listagem vazia",
+            "result": {
+              "status": "passed",
+              "duration": 43000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "listagem;listagem-com-apenas-um-registro",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Listagem com apenas um registro",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 14,
+            "name": "que o site possui apenas um registro",
+            "result": {
+              "status": "passed",
+              "duration": 300000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 15,
+            "name": "acessar a listagem",
+            "result": {
+              "status": "passed",
+              "duration": 6715000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 16,
+            "name": "devo visualizar apenas um registro",
+            "result": {
+              "status": "passed",
+              "duration": 252000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
